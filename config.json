@@ -1,0 +1,31 @@
+{
+    "token": "OTg3NzA4MjM3NTUxOTE1MDM4.G6k8Ag.d2M2AT40XxPBJnYNItbYVEmYFwuDT_GIq-pHis",
+    "prefix": "h!",
+    "voiceChannelID": "912697260654075924",
+
+
+    "presence": {
+        "name": "Harmonia Kayıt",
+        "type": "WATCHING"
+    },
+
+    "rol": {
+        "booster": "boost_id_gir"
+    },
+
+    "kayıt": {
+        "kayıtsızID": "912702141213343845",
+        "erkekID": "912308974060183553",
+        "kızID": "912308714814460006",
+        "kayıtYetkiliID": "987756570790211615",
+
+        "kayıtchatID": "939280711817494588",
+
+        "tag": "࿔",
+        "kayıtsızNick": "Kayıtsız"
+    },
+
+    "emoji": {
+        "amblem": "<a:tik5:759109815347052595>"
+    }
+}
