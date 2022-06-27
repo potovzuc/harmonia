@@ -1,16 +1,29 @@
-const { joinVoiceChannel } = require("@discordjs/voice");
-const config = require("../config.json")
-module.exports = {
-    name: 'ready',
-    once: true,
-    execute(client) {
-        const VoiceChannel = client.channels.cache.get(config.voiceChannelID);
-        joinVoiceChannel({
-            channelId: VoiceChannel.id,
-            guildId: VoiceChannel.guild.id,
-            adapterCreator: VoiceChannel.guild.voiceAdapterCreator,
-            selfDeaf: true
-        });
-        console.log(`${client.user.tag} başarıyla aktif edildi.`);
-    },
+const chalk = require('chalk')
+const moment = require('moment')
+const Discord = require('discord.js')
+const ayarlar = require('../ayarlar.json')
+
+var prefix = ayarlar.prefix
+
+module.exports = client => {
+  console.log(`Komutlar Hazır!`);
+  client.user.setStatus("online");
+  //idle = boşta
+  //dnd = rahatsız etmeyin
+  //online = çevrimiçi
+    var oyun = [
+        "abone olmayı unutmayın",
+        "",
+        "",
+        "",
+        
+    ];
+  
+    setInterval(function() {
+
+        var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
+
+        client.user.setActivity(oyun[random], );
+        }, 2 * 9000);
+  
 };

@@ -1,36 +1,34 @@
 {
-  "name": "harmonia",
-  "version": "1.0.0",
-  "description": "harmonia Kayıt Botu",
-  "main": "app.js",
+  "name": "luffyy",
+  "version": "0.0.1",
+  "main": "bot.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "keywords": [
-    "Harmonia",
-    "v13",
-    "discord-bot",
-    "discord-js",
-    "register",
-    "kayıt",
-    "nodejs"
-  ],
-  "author": "Potovzuc",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Potovzuc/"
-  },
-  "homepage": "https://github.com/Potovzuc/",
   "dependencies": {
-    "@discordjs/voice": "^0.9.0",
-    "canvas": "^2.9.1",
-    "discord.js": "^13.6.0",
-    "moment": "^2.29.3",
+    "chalk": "^4.1.2",
+    "discord-logs": "^2.0.1",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "google-tts-api": "^2.0.2",
+    "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
-    "node-superfetch": "^0.2.3",
-    "path": "^0.12.7",
-    "quick.db": "^7.1.3",
-    "snekfetch": "^4.0.4"
-  }
+    "mongoose": "^6.0.13",
+    "opusscript": "^0.0.8",
+    "parse-ms": "^3.0.0",
+    "quick.db": "^7.0.0b22",
+    "request": "^2.88.2",
+    "canvas": "^2.8.0",
+    "snekfetch": "^4.0.4",
+    "node-superfetch": "^0.2.3"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
